@@ -36,11 +36,17 @@ env:
 jobs:
   build:
     runs-on: ubuntu-20.04
+ jobs:
+  your-job:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30 # job 全体
+    steps:
+      - run: sleep 300
+        timeout-minutes: 20 # step
 
     steps:
     - name: Checkout
       uses: actions/checkout@main
-      timeout-minutes:600
 
     - name: Initialization environment
       env:
