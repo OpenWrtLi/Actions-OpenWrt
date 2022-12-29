@@ -16,6 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+rm -rf package/libuild
+rm -rf package/li
 rm -rf feeds/kenzo/luci-app-adguardhome
 rm -rf feeds/kenzo/adguardhome
 rm -rf feeds/packages/net/adguardhome
