@@ -36,10 +36,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-20.04
- jobs:
-  your-job:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30 # job 全体
+ timeout-minutes: 30 # job 全体
     steps:
       - run: sleep 300
         timeout-minutes: 20 # step
