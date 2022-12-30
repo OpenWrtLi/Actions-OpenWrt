@@ -17,7 +17,6 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-timeout-minutes: 2
 
 env:
   REPO_URL: https://github.com/OpenWrtLi/lede
@@ -32,6 +31,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
+timeout-minutes: 3
 
 jobs:
   build:
