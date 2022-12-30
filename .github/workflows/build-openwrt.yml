@@ -31,11 +31,11 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
-timeout-minutes: 3
 
 jobs:
   build:
     runs-on: ubuntu-20.04
+    timeout-minutes: 3
 
 
     steps:
