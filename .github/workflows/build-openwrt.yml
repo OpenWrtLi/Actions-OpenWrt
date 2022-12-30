@@ -9,7 +9,7 @@
 #
 
 name: Build OpenWrt
-timeout-minutes: 60
+timeout-minutes: 600
 on:
   repository_dispatch:
   workflow_dispatch:
